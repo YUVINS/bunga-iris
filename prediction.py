@@ -1,5 +1,5 @@
 import joblib
 
 def predict(data):
-    clf = joblib.load("rf_model.sav")
+    clf = joblib.load("modelKNN1.pkl")
     return clf.predict(data)
